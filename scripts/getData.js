@@ -10,7 +10,6 @@ export const getData = ({page = 1, count, idPhoto}) => {
   }
 
   if (idPhoto) {
-    console.log(url);
     url.pathname += `/${idPhoto}`;
   }
 
